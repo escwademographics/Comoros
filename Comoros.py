@@ -22,14 +22,14 @@ left_co, cent_co,last_co = st.columns(3)
 with last_co:
     st.image("https://i2.wp.com/ummah-futures.net/wp-content/uploads/2019/12/%D8%A7%D9%84%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9-%D9%84%D8%BA%D8%B1%D8%A8%D9%8A-%D8%A2%D8%B3%D9%8A%D8%A7-1.jpg?w=500&ssl=1")
 with left_co:
-    st.image("https://www.unescwa.org/sites/default/files/images/flags/Flag_of_Algeria.svg")
+    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag_of_the_Comoros.svg/800px-Flag_of_the_Comoros.svg.png?20230723171122")
 st.image("title.PNG")
 
 # Create an empty container
 placeholder = st.empty()
 
-actual_email = "algeria"
-actual_password = "algeria22"
+actual_email = "Comoros"
+actual_password = "comoros22"
 
 # Insert a form in the container
 with placeholder.form("login"):
@@ -52,19 +52,19 @@ if submit and email == actual_email and password == actual_password:
         st.image("SUB HEADER.PNG")
     col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
     with col1:
-        st.write("[Population - السكان](https://docs.google.com/spreadsheets/d/1JRLdrkWA-wyS0qDYP6pIjoUWPKgyyL5C/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
+        st.write("[Population - السكان](https://docs.google.com/spreadsheets/d/1H_acegarMAyOaUf_vPeD5xyi-qKa9dVa/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     with col2:
-        st.write("[Labor - العمالة](https://docs.google.com/spreadsheets/d/1zKVcS5O1rgDbRxCbavNbToy_oU4kcedW/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
+        st.write("[Labor - العمالة](https://docs.google.com/spreadsheets/d/1ZGHBheaUxByCOJPaTR6oEyLxysXvsDZt/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     with col3:
-        st.write("[Poverty - الفقر](https://docs.google.com/spreadsheets/d/1vFb8c020HMyz_wSia9zludU115RLvsgL/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
+        st.write("[Poverty - الفقر](https://docs.google.com/spreadsheets/d/13Xg0GUva_TCD_B-SQf2u4x_mmthqM30Y/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     with col4:
-        st.write("[Education - التعليم](https://docs.google.com/spreadsheets/d/1d_7y7tSDQQkUUrVrQIWCRTkw2_UQ81Bd/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
+        st.write("[Education - التعليم](https://docs.google.com/spreadsheets/d/1P5W9TRrfIk3Q8Zpm_F_n-2BbQhb9cooh/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     with col5:
-        st.write("[Culture - الثقافة](https://docs.google.com/spreadsheets/d/1UZFRgfDRynkhQOgTEOcVJN0K-eN3oqAX/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
+        st.write("[Culture - الثقافة](https://docs.google.com/spreadsheets/d/1U3We95qs3agsJ87VumQR7ik647j93dD8/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     with col6:
-        st.write("[Health - الصحة](https://docs.google.com/spreadsheets/d/1UvYGNJZH8UG4pfifpBeF-dELf6ICqgiM/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
+        st.write("[Health - الصحة](https://docs.google.com/spreadsheets/d/1C8bFuQC2X-HXpXh_2D1EMpBTJobpYE5b/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     with col7:
-        st.write("[Housing Conditions - المساكن](https://docs.google.com/spreadsheets/d/1PBmsrM8Xatil4pyQntxVF51JuWeNUwI-/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")   
+        st.write("[Housing Conditions - المساكن](https://docs.google.com/spreadsheets/d/16JWNEl7Eh43R0H2X6pUzH8Gz1BPigxhI/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")   
     
 
 elif submit and email != actual_email and password != actual_password:
