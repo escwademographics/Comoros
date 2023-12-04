@@ -28,8 +28,8 @@ st.image("title.PNG")
 # Create an empty container
 placeholder = st.empty()
 
-actual_email = "algeria"
-actual_password = "algeria"
+actual_email = "comoros"
+actual_password = "comoros"
 
 # Insert a form in the container
 with placeholder.form("login"):
