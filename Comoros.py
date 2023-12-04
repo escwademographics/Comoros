@@ -48,7 +48,7 @@ if submit and email == actual_email and password == actual_password:
     st.success("تم تسجيل الدخول بنجاح")
     leftt_co, centt_co,lastt_co = st.columns([1,1,2])
     with lastt_co :
-        st.title('الجزائر')
+        st.title('جزر القمر')
         st.image("SUB HEADER.PNG")
     col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
     with col1:
