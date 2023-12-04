@@ -1,2 +1,2 @@
-# Algeria
-Algeria Questionnaire Web App - Arab Society
+# Comoros
+Comoros Questionnaire Web App - Arab Society
