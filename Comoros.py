@@ -64,7 +64,8 @@ if submit and email == actual_email and password == actual_password:
     with col6:
         st.write("[Health - الصحة](https://docs.google.com/spreadsheets/d/1C8bFuQC2X-HXpXh_2D1EMpBTJobpYE5b/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     with col7:
-        st.write("[Housing Conditions - المساكن](https://docs.google.com/spreadsheets/d/16JWNEl7Eh43R0H2X6pUzH8Gz1BPigxhI/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")   
+        st.write("[Housing Conditions - المساكن](https://docs.google.com/spreadsheets/d/16JWNEl7Eh43R0H2X6pUzH8Gz1BPigxhI/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
+    st.title("Questionnaires in English Language are availble below:")
 
 elif submit and email != actual_email and password != actual_password:
     st.error("هناك خطأ في اسم المستخدم او كلمة المرور، الرجاء المحاولة من جديد")
