@@ -69,7 +69,7 @@ if submit and email == actual_email and password == actual_password:
     st.title("Questionnaires in English Language are availble below:")
 
     
-    coll1, coll2, col3, coll4, coll5, coll6, coll7 = st.columns(7)
+    coll1, coll2, coll3, coll4, coll5, coll6, coll7 = st.columns(7)
     with coll1:
         st.write("[Population - السكان](https://docs.google.com/spreadsheets/d/1H_acegarMAyOaUf_vPeD5xyi-qKa9dVa/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     with coll2:
