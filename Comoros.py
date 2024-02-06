@@ -66,7 +66,7 @@ if submit and email == actual_email and password == actual_password:
     with col7:
         st.write("[Housing Conditions - المساكن](https://docs.google.com/spreadsheets/d/16JWNEl7Eh43R0H2X6pUzH8Gz1BPigxhI/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     
-    st.title("Questionnaires in English Language are availble below:")
+    st.title("Questionnaires in English Language are available below:")
 
     
     coll1, coll2, coll3, coll4, coll5, coll6, coll7 = st.columns(7)
